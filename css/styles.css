@@ -1,42 +1,63 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap");
-
 body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  background: #e5e5e5;
+  background-color: antiquewhite;
 }
 
-li {
-  list-style: none;
-}
-
-.button {
+.header {
+  display: flex;
   position: absolute;
-  width: 128px;
-  height: 38px;
-  background: #f5f4fa;
-  border: none;
-  border-radius: 4px;
+  width: 1240px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+}
+.logoPrincipal {
+  display: flex;
+  flex-basis: 33%;
+  align-content: center;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+  align-items: baseline;
+  color: #2196f3;
+}
+
+.navegacionHeader {
+  display: flex;
+  flex-basis: 33%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.contactoHeader {
+  display: flex;
+  flex-basis: 33%;
+
+  align-items: center;
+  justify-content: space-around;
+}
+
+.link-navegacion {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  /* identical to box height, or 162% */
-
-  text-align: center;
-  letter-spacing: 0.03em;
+  font-size: 14px;
+  text-decoration: none;
 
   color: #212121;
 }
 
-.button:hover {
-  position: absolute;
-  color: #ffffff;
-  background: #2196f3;
-  /* shadow-middle */
+.link-navegacion:hover {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
 
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
+  color: #2196f3;
 }
