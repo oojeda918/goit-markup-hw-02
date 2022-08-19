@@ -1,63 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap");
 body {
-  background-color: antiquewhite;
 }
 
-.header {
-  display: flex;
-  position: absolute;
-  width: 1240px;
-  height: 80px;
-  left: 0px;
-  top: 0px;
-  background: #ffffff;
-  flex-wrap: wrap;
-  align-content: space-around;
-  justify-content: space-around;
-}
 .logoPrincipal {
-  display: flex;
-  flex-basis: 33%;
-  align-content: center;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   text-decoration: none;
   align-items: baseline;
-  color: #2196f3;
-}
-
-.navegacionHeader {
-  display: flex;
-  flex-basis: 33%;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.contactoHeader {
-  display: flex;
-  flex-basis: 33%;
-
-  align-items: center;
-  justify-content: space-around;
-}
-
-.link-navegacion {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  text-decoration: none;
-
-  color: #212121;
-}
-
-.link-navegacion:hover {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-
   color: #2196f3;
 }
