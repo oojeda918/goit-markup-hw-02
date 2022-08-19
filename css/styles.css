@@ -13,6 +13,12 @@ body {
   line-height: 16px;
   letter-spacing: 0.02em;
 }
+
+.header > nav > a {
+  color: #212121;
+  text-decoration: none;
+}
+
 .logoPrincipal {
   font-family: "Raleway";
   font-style: normal;
@@ -24,6 +30,7 @@ body {
 
 .headercontact {
   font-family: "Roboto";
+  text-decoration: none;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -142,4 +149,5 @@ body {
 
 .contactfooter {
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
